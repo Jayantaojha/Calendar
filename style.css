@@ -19,7 +19,15 @@ body{
 .wrapper{
     width: 450px;
     background: #fff;
-    border-radius: 10px;
+    border-radius: 15px;
+}
+
+@media (max-width: 600px) {
+    .wrapper{
+        margin: 0px 14px 0px 14px;
+        position: relative;
+        bottom: 40px;
+    }
 }
 
 .wrapper header{
